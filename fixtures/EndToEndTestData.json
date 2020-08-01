@@ -1,0 +1,14 @@
+{
+    
+    "firstName" : "tomsmith",
+    "lastName" : "SuperSecretPassword!",
+    "email"    : "emailGen@Domain.com",
+    "regPassword" : "Ali3leewa",
+    "dayBirth" : "5",
+    "monthBirth" : "3",
+    "yearBirth" : "1994",
+    "enquiryKey"   : "I ask about some Apple Products ",
+    "fullProdName" : "apple icam",
+    "prodNameAutoComp" : "appl"
+    
+}
