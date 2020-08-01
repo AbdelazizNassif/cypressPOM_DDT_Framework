@@ -17,7 +17,7 @@ var prodFirstFewLetters;
 describe("Search Product Suite", () => {
 
     beforeEach(() => {
-        cy.visit('https://demo.nopcommerce.com/');
+        cy.visit('/');
         cy.fixture('EndToEndTestData').as('data');
         cy.get('@data').then((testData) => {
             prodFullName = testData.fullProdName;

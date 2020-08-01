@@ -18,7 +18,7 @@ var enquiry;
 describe("Contact Us Suite", () => {
 
     beforeEach(() => {
-        cy.visit('https://demo.nopcommerce.com/');
+        cy.visit('/');
         homeObj.clickContactUs();
         cy.fixture('EndToEndTestData').as('data');
         cy.get('@data').then((testData) => {

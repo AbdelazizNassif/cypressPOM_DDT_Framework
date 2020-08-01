@@ -17,7 +17,7 @@ var password;
 describe("Registeration Suite", () => {
 
     beforeEach(() => {
-        cy.visit('https://demo.nopcommerce.com/');
+        cy.visit('/');
         homeObj.clickRegister();
         cy.fixture('EndToEndTestData').as('data');
         cy.get('@data').then((testData) => {

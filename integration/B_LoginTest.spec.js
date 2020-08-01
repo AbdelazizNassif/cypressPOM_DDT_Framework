@@ -15,7 +15,7 @@ var password;
 describe("Login Suite", () => {
 
     beforeEach(() => {
-        cy.visit('https://demo.nopcommerce.com/');
+        cy.visit('/');
         homeObj.clickLogin();
         cy.fixture('EndToEndTestData').as('data');
         cy.get('@data').then((testData) => {
